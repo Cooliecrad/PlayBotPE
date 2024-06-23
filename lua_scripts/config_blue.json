@@ -1,0 +1,38 @@
+{
+    "IS_TEST_MODE": true,
+    "OPPONENT_NAME": "Default",
+    "gBayesPlayTable": "Package/NormalPlay/NormalPlayDefend",
+    "gNormalPlay": "NormalPlayDefend",
+    "gPlayBotSkill": [
+        "getball",
+        "goalie",
+        "goreceivepos",
+        "halt",
+        "normaldef",
+        "passball",
+        "receiveball",
+        "shoot",
+        "stop",
+        "refdef",
+        "gotopos",
+        "penaltydef",
+        "penaltykick"
+    ],
+    "gRefPlayTable": [
+        "Package/GameStop/Ref_Stop",
+        "Package/NormalPlay/NormalPlayDefend",
+        "Package/Ref_Halt"
+    ],
+    "gRoleFixNum": {
+    },
+    "gSkill": [
+        "TierSkill",
+        "ReceiverSkill",
+        "MiddleSkill",
+        "KickerSkill",
+        "GoalieSkill",
+        "DefenderSkill"
+    ],
+    "gTestPlay": "",
+    "gTestPlayTable": ""
+}
